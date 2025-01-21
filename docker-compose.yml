@@ -1,0 +1,19 @@
+volumes:
+  pg_data:
+  
+services:
+  db:
+    image: postgres:16
+    env_file: .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    env_file: .env
+    depends_on:
+      - db
+    ports:
+      - "8007:8000"
