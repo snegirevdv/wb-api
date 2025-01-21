@@ -1,5 +1,6 @@
-# WB API
-- [WB API](#wb-api)
+# WB-API
+
+- [WB-API](#wb-api)
   - [О проекте](#о-проекте)
   - [Основные функции](#основные-функции)
   - [Стек технологий](#стек-технологий)
@@ -45,6 +46,7 @@
     - Данные для подключения к PostgreSQL
     - Токен Telegram-бота
     - Токен для авторизации (Bearer)
+  
 3. **Запуск проекта**
     ```bash
     docker-compose up --build
@@ -54,6 +56,6 @@
 После запуска проекта документация будет доступна по адресу http://<ваш сервер>/docs
 
 ## Демонстрационная версия
-Демонстрационная версия API: https://wb-api.snegirev.dev/api/v1/
-Документация: https://wb-api.snegirev.dev/docs/
-Телеграм-бот: @wildbtesting_bot
+- Демонстрационная версия API: https://wb-api.snegirev.dev/api/v1/
+- Документация: https://wb-api.snegirev.dev/docs/
+- Телеграм-бот: @wildbtesting_bot
