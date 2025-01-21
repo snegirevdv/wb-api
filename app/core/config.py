@@ -6,8 +6,8 @@ class Settings(BaseSettings):
 
     app_title: str = "WB-API"
     app_description: str = "API для получения информации о товарах WB"
-    schedule_interval_minutes = 30
-    wb_url = (
+    schedule_interval_minutes: int = 30
+    wb_url: str = (
         "https://card.wb.ru/cards/v1/detail?appType=1&curr=rub&dest=-1257786&spp=30&nm="
     )
 
